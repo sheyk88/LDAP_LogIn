@@ -14,9 +14,9 @@ namespace LDAP_LogIn
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string path = @"LDAP://Nombre_del_servidor";       //CAMBIAR POR VUESTRO PATH (URL DEL SERVICIO DE DIRECTORIO LDAP)
+            string path = @"LDAP://srviese06.iese.org";       //CAMBIAR POR VUESTRO PATH (URL DEL SERVICIO DE DIRECTORIO LDAP)
                                                                //Por ejemplo: 'LDAP://ejemplo.lan.es'
-            string dominio = @"Nombre_del_dominio";             //CAMBIAR POR VUESTRO DOMINIO
+            string dominio = @"iese.org";             //CAMBIAR POR VUESTRO DOMINIO
             string usu = txtb_user.Text.Trim();                 //USUARIO DEL DOMINIO
             string pass = txtb_pass.Text.Trim();                //PASSWORD DEL USUARIO
             string domUsu = dominio + @"\" + usu;               //CADENA DE DOMINIO + USUARIO A COMPROBAR
